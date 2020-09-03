@@ -1,4 +1,4 @@
-var titulo = document.querySelector("h1");
+var titulo = document.querySelector(".titulo");
 
 var pacientes = document.querySelectorAll(".paciente");
 
@@ -37,7 +37,10 @@ for (var i = 0; i < pacientes.length; i++) {
 
 }
 
-
+var botaoAdicionar = document.querySelector("#adicionar-paciente");
+botaoAdicionar.addEventListener("click", function() {
+    console.log("Cliquei no botão");
+})
 
 
 console.log(imc);
